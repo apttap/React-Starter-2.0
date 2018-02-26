@@ -6,6 +6,7 @@ import { createStore, applyMiddleware, combineReducers } from 'redux'
 import reducers from './reducers'
 import reduxThunk from 'redux-thunk'
 import logger from 'redux-logger'
+require('./style.scss')
 
 const createStoreWithMiddleware = applyMiddleware(reduxThunk, logger)(createStore)
 const store = createStoreWithMiddleware(reducers)
