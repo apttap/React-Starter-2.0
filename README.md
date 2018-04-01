@@ -12,16 +12,16 @@
 
 ## Installation ##
 
-`git clone https://github.com/DZuz14/React-Starter-2.0`
-`npm install`
+1. `git clone https://github.com/DZuz14/React-Starter-2.0`
+2. `npm install`
 
 ## Running ##
 
-`npm run devHot` (Hot reload with webpack dev server)
-`npm run devWatch` (Continuously builds new bundle, but no hot reload/webpack dev server)
-`npm start` (Normal)
-`npm run prod` (Prepare for production)
+- `npm run devHot` (Hot reload with webpack dev server)
+- `npm run devWatch` (Continuously builds new bundle, but no hot reload/webpack dev server)
+- `npm start` (Normal)
+- `npm run prod` (Prepare for production)
 
 ## Testing ##
 
-`npm run test`
+- `npm run test`
